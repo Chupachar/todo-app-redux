@@ -16,7 +16,7 @@ function AddTodo() {
     const dispatch = useDispatch();
 
     function createTodoItem() {
-        dispatch(createTodo('milk'))
+        dispatch(createTodo())
     }
 
     function toggleTodoItem(id) {
